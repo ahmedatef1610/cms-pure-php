@@ -1,0 +1,3 @@
+composer init
+composer require phpmailer/phpmailer
+composer dump-autoload -o

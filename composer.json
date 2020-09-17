@@ -1,0 +1,13 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.1",
+        "pusher/pusher-php-server": "^4.1",
+        "vlucas/phpdotenv": "^5.2"
+    },
+    "autoload":{
+        "classmap": [
+            "classes",
+            "vendor/phpmailer/phpmailer/src"
+        ]
+    }
+}
