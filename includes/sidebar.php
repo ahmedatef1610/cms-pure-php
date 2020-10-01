@@ -20,10 +20,10 @@
     <div class="well">
         <?php if(isset($_SESSION['user_role'])): ?>
             <h4>Logged in as <?php echo $_SESSION['user_name'] ?></h4>
-            <a href="./includes/login/logout.php" class="btn btn-primary">Logout</a>
+            <a href="includes/login/logout.php" class="btn btn-primary">Logout</a>
         <?php else: ?>
             <h4>Login</h4>
-            <form action="./includes/login/login.php" method="post">
+            <form action="includes/login/login.php" method="post">
                 <div class="form-group">
                     <input type="text" class="form-control" name="username" placeholder="enter username">
                 </div>

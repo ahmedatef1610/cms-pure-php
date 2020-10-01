@@ -37,7 +37,7 @@ if(isset($_GET['post_id'])){
 
 <?php
 
-echo loggedInUserId();
+//echo loggedInUserId();
 // echo "<pre>";
 // print_r($_POST);
 // echo "</pre>";

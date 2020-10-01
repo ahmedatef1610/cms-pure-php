@@ -9,7 +9,7 @@
 
 <!-- Page Content -->
 <div class="container">
-
+    <?php echo "{$_SERVER['DOCUMENT_ROOT']}/index.php" ?>
     <div class="row">
 
         <!-- Blog Entries Column -->

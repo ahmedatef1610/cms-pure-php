@@ -13,7 +13,7 @@ if(ifItIsMethod('post')){
     }
 }
 else{
-    redirect("index.php");
+    redirect("../../index.php");
 }
 
 ?>

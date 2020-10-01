@@ -180,7 +180,7 @@ function login_user( $username, $password ) {
                 foreach ( $row as $key => $value ) {
                     $_SESSION["$key"] = $value ;
                 }
-                redirect( 'admin' );
+                redirect( '../../admin' );
             }
         } else {
             redirect( 'login.php' );
