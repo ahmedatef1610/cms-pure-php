@@ -6,7 +6,7 @@
 <?php
 
 if ( !isset( $_GET['email'] ) && !isset( $_GET['token'] ) ) {
-    redirect( '/12cms/index.php' );
+    redirect( 'index.php' );
 }
 
 if ( $stmt = mysqli_prepare( $connection, 'SELECT user_name, user_email, token FROM users WHERE token=?' ) ) {

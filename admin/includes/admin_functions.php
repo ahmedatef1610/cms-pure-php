@@ -116,7 +116,7 @@ function user_email_exists( $email = '' ) {
 
 function redirect( $location ) {
     return header( "Location:$location" );
-    exit;
+    //exit;
 }
 //9
 
@@ -180,7 +180,9 @@ function login_user( $username, $password ) {
                 foreach ( $row as $key => $value ) {
                     $_SESSION["$key"] = $value ;
                 }
-                redirect( '../../admin' );
+                //redirect( '../../admin' ); //index
+                //redirect( 'admin' ); // login.php page
+                redirect( "/12-cms/admin" ); 
             }
         } else {
             redirect( 'login.php' );

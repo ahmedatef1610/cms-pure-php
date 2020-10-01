@@ -1,3 +1,5 @@
+<?php //ob_start() ?>
+
 <?php session_start() ?>
 <?php require "admin/includes/admin_functions.php" ?>
 <?php require "includes/likes_functions.php" ?>
