@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/12-cms/index">CMS</a>
+            <a class="navbar-brand" href="index">CMS</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -36,22 +36,22 @@
 
                 <?php if(isLoggedIn()): ?>                    
                     <li>
-                        <a href='/12-cms/admin'>Admin</a>
+                        <a href='admin'>Admin</a>
                     </li>
                     <li>
                         <a href="./includes/login/logout.php">Logout</a>
                     </li>
                 <?php else: ?>
                     <li class="<?php echo ($pageTitle == 'Login')?'active':''; ?>">
-                        <a href='/12-cms/login.php'>Login</a>
+                        <a href='login.php'>Login</a>
                     </li>
                 <?php endif; ?>
                     
                 <li class="<?php echo ($pageTitle == 'Registration')?'active':''; ?>">
-                    <a href='/12-cms/registration'>Registration</a>
+                    <a href='registration'>Registration</a>
                 </li>
                 <li class="<?php echo ($pageTitle == 'Contact')?'active':''; ?>">
-                    <a href='/12-cms/contact'>Contact</a>
+                    <a href='contact'>Contact</a>
                 </li>
                 <?php
                     if ( isset( $_SESSION['user_role'] ) ) {

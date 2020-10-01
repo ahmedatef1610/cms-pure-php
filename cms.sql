@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3325
--- Generation Time: Sep 17, 2020 at 04:47 AM
+-- Generation Time: Oct 01, 2020 at 03:55 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.5
 
@@ -125,7 +125,7 @@ INSERT INTO `posts` (`post_id`, `post_category_id`, `post_title`, `post_author`,
 (3, 2, 'java course', '', 'hala', 'java.png', 'Java is a set of computer software and specifications developed by James Gosling at Sun Microsystems, which was later acquired by the Oracle Corporation, that provides a system for developing application software and deploying it in a cross-platform computing environment.', 'java,hala', 0, 'published', 1, 0, '2020-09-01 13:07:40'),
 (13, 3, 'python cousre', '', 'salma', 'python.png', '<p><strong>Python</strong> is an <a href=\"https://en.wikipedia.org/wiki/Interpreted_language\">interpreted</a>, <a href=\"https://en.wikipedia.org/wiki/High-level_programming_language\">high-level</a> and <a href=\"https://en.wikipedia.org/wiki/General-purpose_programming_language\">general-purpose programming language</a>. Created by <a href=\"https://en.wikipedia.org/wiki/Guido_van_Rossum\">Guido van Rossum</a> and first released in 1991, Python is design philosophy emphasizes <a href=\"https://en.wikipedia.org/wiki/Code_readability\">code readability</a> with its notable use of <a href=\"https://en.wikipedia.org/wiki/Off-side_rule\">significant whitespace</a>. Its <a href=\"https://en.wikipedia.org/wiki/Language_construct\">language constructs</a> and <a href=\"https://en.wikipedia.org/wiki/Object-oriented_programming\">object-oriented</a> approach aim to help <a href=\"https://en.wikipedia.org/wiki/Programmers\">programmers</a> write clear, logical code for small and large-scale projects</p>', 'python,salma,ai,ml', 0, 'published', 9, 1, '2020-09-09 20:39:32'),
 (14, 4, 'Socket.IO course', '', 'ahmed', 'socketio.jpg', '<p><strong>Socket.IO</strong> is a <a href=\"https://en.wikipedia.org/wiki/JavaScript\">JavaScript</a> library for realtime <a href=\"https://en.wikipedia.org/wiki/Web_application\">web applications</a>. It enables realtime, bi-directional communication between web clients and servers. It has two parts: a <a href=\"https://en.wikipedia.org/wiki/Client-side\">client-side</a> library that runs in the <a href=\"https://en.wikipedia.org/wiki/Web_browser\">browser</a>, and a <a href=\"https://en.wikipedia.org/wiki/Server-side\">server-side</a> library for <a href=\"https://en.wikipedia.org/wiki/Node.js\">Node.js</a>. Both components have a nearly identical <a href=\"https://en.wikipedia.org/wiki/Application_programming_interface\">API</a>. Like <a href=\"https://en.wikipedia.org/wiki/Node.js\">Node.js</a>, it is <a href=\"https://en.wikipedia.org/wiki/Event-driven_architecture\">event-driven</a>.</p>', 'websocket,socketio,ahmed', 1, 'published', 12, 0, '2020-09-10 01:28:31'),
-(26, 1, 'Laravel Course', '', 'hala', 'Laravel.jpg', '<p><strong>Laravel</strong> is a <a href=\"https://en.wikipedia.org/wiki/Free_software\">free</a>, open-source<a href=\"https://en.wikipedia.org/wiki/Laravel#cite_note-3\">[3]</a> <a href=\"https://en.wikipedia.org/wiki/PHP\">PHP</a> <a href=\"https://en.wikipedia.org/wiki/Web_framework\">web framework</a>, created by Taylor Otwell and intended for the development of web applications following the <a href=\"https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller\">model–view–controller</a> (MVC) <a href=\"https://en.wikipedia.org/wiki/Architectural_pattern\">architectural pattern</a> and based on <a href=\"https://en.wikipedia.org/wiki/Symfony\">Symfony</a>. Some of the features of Laravel are a modular <a href=\"https://en.wikipedia.org/wiki/Application-level_package_manager\">packaging system</a> with a dedicated dependency manager, different ways for accessing <a href=\"https://en.wikipedia.org/wiki/Relational_database\">relational databases</a>, utilities that aid in <a href=\"https://en.wikipedia.org/wiki/Application_deployment\">application deployment</a> and maintenance, and its orientation toward <a href=\"https://en.wikipedia.org/wiki/Syntactic_sugar\">syntactic sugar</a>.</p>', 'laravel,hala', 0, 'published', 123, 2, '2020-09-12 10:35:00');
+(26, 1, 'Laravel Course', '', 'hala', 'Laravel.jpg', '<p><strong>Laravel</strong> is a <a href=\"https://en.wikipedia.org/wiki/Free_software\">free</a>, open-source<a href=\"https://en.wikipedia.org/wiki/Laravel#cite_note-3\">[3]</a> <a href=\"https://en.wikipedia.org/wiki/PHP\">PHP</a> <a href=\"https://en.wikipedia.org/wiki/Web_framework\">web framework</a>, created by Taylor Otwell and intended for the development of web applications following the <a href=\"https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller\">model–view–controller</a> (MVC) <a href=\"https://en.wikipedia.org/wiki/Architectural_pattern\">architectural pattern</a> and based on <a href=\"https://en.wikipedia.org/wiki/Symfony\">Symfony</a>. Some of the features of Laravel are a modular <a href=\"https://en.wikipedia.org/wiki/Application-level_package_manager\">packaging system</a> with a dedicated dependency manager, different ways for accessing <a href=\"https://en.wikipedia.org/wiki/Relational_database\">relational databases</a>, utilities that aid in <a href=\"https://en.wikipedia.org/wiki/Application_deployment\">application deployment</a> and maintenance, and its orientation toward <a href=\"https://en.wikipedia.org/wiki/Syntactic_sugar\">syntactic sugar</a>.</p>', 'laravel,hala', 0, 'published', 124, 2, '2020-09-29 14:20:37');
 
 -- --------------------------------------------------------
 
@@ -152,7 +152,6 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `user_name`, `user_password`, `user_email`, `user_firstname`, `user_lastname`, `user_image`, `user_role`, `token`, `user_randSalt`, `user_date`) VALUES
-(1, 'ahmed', '$2y$10$NSgRpkd1QosEOTRg1UyNA.nD3Ebgk6/saAvRvR.7U64nEE3X9YxM.', 'test@test.com', 'ahmed', 'atef', '', 'admin', '', '$2y$10$iusesomecrazystring161', '2020-09-10 20:00:30'),
 (2, 'atef', '$2y$10$TO24/EFrxalC8iALvPRX..f4pRzbn2Sa5KpjaEXRTbtDKTMfoRsGu', 'test2@test.com', 'atef', 'elshazly', '', 'admin', '', '$2y$10$iusesomecrazystring161', '2020-09-06 16:40:57'),
 (4, 'saad', '$2y$10$TO24/EFrxalC8iALvPRX..f4pRzbn2Sa5KpjaEXRTbtDKTMfoRsGu', 'test3@test.com', 'saad', 'elshazly', '', 'admin', '', '$2y$10$iusesomecrazystring161', '2020-09-09 19:30:33'),
 (5, 'hala', '$2y$10$CzXo9SjWhohGfDxwMAQ/MuFbY7NkMWdDI6azAq21nJGkb9ciGHvpy', 'test4@test.com', 'hala', 'abd elstar', '', 'admin', '', '$2y$10$iusesomecrazystring161', '2020-09-12 10:58:55'),
@@ -187,7 +186,10 @@ INSERT INTO `users_online` (`id`, `session`, `time`) VALUES
 (15, 'j4up2j9dqdlp2s03s3kdtnj2bh', 1600195528),
 (16, '947dc6339rc6icrkgnqo435bkf', 1600268436),
 (17, 'pdvo71es8ldor6d3dfdnqvenfd', 1600308922),
-(18, 'f2sb8p2knrnthqkf36v57gpstb', 1600293260);
+(18, 'f2sb8p2knrnthqkf36v57gpstb', 1600293260),
+(19, 'nd8djan52k6rg0de67ablfihrf', 1601136061),
+(20, '9f7eitv0s88mcrv3vqkq8pjvp5', 1601282870),
+(21, 'tr5abvmiabpk84dsvgbbmsk39m', 1601382099);
 
 --
 -- Indexes for dumped tables
@@ -268,7 +270,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users_online`
 --
 ALTER TABLE `users_online`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -14,7 +14,7 @@ require './vendor/autoload.php';
 
 
 if ( !isset( $_GET['forgot'] ) ) {
-    redirect( '/12-cms/index' );
+    redirect( 'index' );
 }
 
 if ( ifItIsMethod( 'post' ) ) {

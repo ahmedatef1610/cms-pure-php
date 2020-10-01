@@ -175,15 +175,15 @@ function login_user( $username, $password ) {
             // boolean
 
             if ( $user_name != $username || !$password_verify || empty( $username ) || empty( $password ) ) {
-                redirect( '/12-cms/login.php' );
+                redirect( 'login.php' );
             } elseif ( $user_name == $username && $password_verify && !empty( $username ) && !empty( $password ) ) {
                 foreach ( $row as $key => $value ) {
                     $_SESSION["$key"] = $value ;
                 }
-                redirect( '/12-cms/admin' );
+                redirect( 'admin' );
             }
         } else {
-            redirect( '/12-cms/login.php' );
+            redirect( 'login.php' );
         }
 
     }

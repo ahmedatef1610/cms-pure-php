@@ -131,7 +131,7 @@ if ( $select_all_posts_query ) {
             <p><span class='glyphicon glyphicon-time'></span> Posted on <?php echo $post_time ?></p>
             <hr>
             <!-- Preview Image -->
-            <img class='img-responsive' src='/12-cms/images/<?php echo $post_image ?>' alt=''>
+            <img class='img-responsive' src='images/<?php echo $post_image ?>' alt=''>
             <hr>
             <!-- Post Content -->
             <p><?php echo $post_content ?></p>
@@ -160,7 +160,7 @@ if ( $select_all_posts_query ) {
                 </div>
             <?php else: ?>
                 <div class="row">
-                    <p class="pull-right login-to-post">You need to <a href="/12-cms/login.php">Login</a> to like </p>
+                    <p class="pull-right login-to-post">You need to <a href="login.php">Login</a> to like </p>
                 </div>
             <?php endif ?>
 

@@ -21,7 +21,7 @@
 
             <div class="modal-footer">
                 <form id="formDeletePost" action='<?php echo $_SERVER['PHP_SELF'] ?>' method='POST'>
-                  <input type='hidden' class="modal_delete_link" name='post_id' value=''>
+                    <input type='hidden' class="modal_delete_link" name='post_id' value=''>
                 </form>
                 <input form="formDeletePost" type='submit' class='btn btn-danger' name='delete' value='Delete'>
                 <!-- <a href="" class="btn btn-danger modal_delete_link">Delete</a> -->

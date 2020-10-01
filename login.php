@@ -4,12 +4,12 @@
 <?php  include 'includes/header.php' ?>
 
 <?php
-checkIfUserIsLoggedInAndRedirect( '/12-cms/admin' );
+checkIfUserIsLoggedInAndRedirect( 'admin' );
 if ( ifItIsMethod( 'post' ) ) {
     if ( isset( $_POST['username'] ) && isset( $_POST['password'] ) ) {
         login_user( $_POST['username'], $_POST['password'] );
     } else {
-        redirect( '/12-cms/login.php' );
+        redirect( 'login.php' );
     }
 }
 ?>
